@@ -1,0 +1,13 @@
+{
+	"name": "elesho-spring-aws-heroku",
+	"env":{
+		"JDBC_URL": {"required":false},
+		"JDBC_USER": {"required":false},
+		"JDBC_PASS": {"required":false}
+	},
+	"buidpacks":[
+		{
+			"url": "heroku/gradle"
+		}
+	]
+}
